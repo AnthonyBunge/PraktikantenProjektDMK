@@ -4,8 +4,8 @@ const [username, setUsername] = useState("")
 const [password, setpassword] = useState("")
 function submitFunction(e){
     e.preventDefault()
-    if (username == "Fluffel" &&
-    password == "1234"){
+    if (username == "1" &&
+    password == "1"){
         alert("erfolgreich eingeloggt");
         props.setUser(true)
     }else alert("Falsche Log-in Daten")
